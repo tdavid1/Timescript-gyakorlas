@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <p>
+      <label for="title">Cím:</label>
+      <input type="text" id="title">
+    </p>
+    <p>
+      <label for="episode">Epizodók:</label>
+      <input type="number" id="episode">
+    </p>
+    <p>
+      <label for="director">Rendező:</label>
+      <input type="text" id="director">
+    </p>
+    <p id="errormessage"></p>
+    <button id="gomb">Új sorozat</button>
+    <ul id="list"></ul>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
